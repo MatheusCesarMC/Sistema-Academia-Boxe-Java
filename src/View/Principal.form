@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.Principal">
+  <grid id="27dc6" binding="painelPrincipal" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="1818" height="1055"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="60f7f" binding="jpTop" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <grid id="2526d" class="javax.swing.JMenuBar" binding="jpBar" layout-manager="GridLayoutManager" row-count="1" column-count="6" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+            <margin top="0" left="0" bottom="0" right="0"/>
+            <constraints/>
+            <properties/>
+            <border type="none"/>
+            <children>
+              <grid id="afd11" class="javax.swing.JMenu" binding="jmCadastro" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <icon value="img/Boxer icon.png"/>
+                  <text value="Cadastrar"/>
+                  <toolTipText value="Cadastrar informações dos clientes"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="8b9d2" class="javax.swing.JMenuItem" binding="jmiClientes">
+                    <constraints/>
+                    <properties>
+                      <font size="20"/>
+                      <icon value="img/ClientesTelaPrincipal.png"/>
+                      <text value="Clientes"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="c2613" class="javax.swing.JMenu" binding="jmRegistros" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <icon value="img/registrosTelaPrincipal.png"/>
+                  <text value="Registros"/>
+                  <toolTipText value=""/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="98427" class="javax.swing.JMenuItem" binding="jmiClientesRegistrados">
+                    <constraints/>
+                    <properties>
+                      <font size="20"/>
+                      <icon value="img/ClientesTelaPrincipal.png"/>
+                      <text value="Clientes"/>
+                      <toolTipText value="Consultar dados dos clientes cadastrados"/>
+                    </properties>
+                  </component>
+                  <component id="6625a" class="javax.swing.JMenuItem" binding="jmiAulasRegistradas">
+                    <constraints/>
+                    <properties>
+                      <font size="20"/>
+                      <icon value="img/AgendamentoAulasIconTelaPrincipal.png"/>
+                      <text value="Aulas"/>
+                    </properties>
+                  </component>
+                  <component id="a0922" class="javax.swing.JMenuItem" binding="jmiVendasRegistradas">
+                    <constraints/>
+                    <properties>
+                      <enabled value="true"/>
+                      <font size="20"/>
+                      <icon value="img/VendasIconTelaPrincipal.png"/>
+                      <text value="Vendas"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="71dbe" class="javax.swing.JMenu" binding="jmAgendamento" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <icon value="img/agendamentosTelaPrincipal.png"/>
+                  <text value="Agendamentos"/>
+                  <toolTipText value=""/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="d0f3b" class="javax.swing.JMenuItem" binding="jmiAAulas">
+                    <constraints/>
+                    <properties>
+                      <font size="20"/>
+                      <icon value="img/AgendamentoAulasIconTelaPrincipal.png"/>
+                      <text value="Aulas"/>
+                      <toolTipText value="Consultar aulas agendadas"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="6780" class="javax.swing.JMenu" binding="jmSair" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="5" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <icon value="img/sairTelaPrincipal64x64.png"/>
+                  <text value="Sair"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="30ff5" class="javax.swing.JMenuItem" binding="jmiSair">
+                    <constraints/>
+                    <properties>
+                      <font size="20"/>
+                      <text value="Confirmar"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="f9ef9" class="javax.swing.JMenu" binding="jmSobre" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <icon value="img/sobreTelaPrincipal.png"/>
+                  <text value="Sobre"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="e9c77" class="javax.swing.JMenuItem" binding="jmiMais">
+                    <constraints/>
+                    <properties>
+                      <font size="20"/>
+                      <icon value="img/SobreMaisIconTelaPrincipal.png"/>
+                      <text value="Mais"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+              <grid id="9caf1" class="javax.swing.JMenu" binding="jmAtendimento" layout-manager="FlowLayout" hgap="5" vgap="5" flow-align="1">
+                <constraints>
+                  <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+                </constraints>
+                <properties>
+                  <font size="20"/>
+                  <icon value="img/AtendimentoTelaPrincipal.png"/>
+                  <text value="Atendimento"/>
+                </properties>
+                <border type="none"/>
+                <children>
+                  <component id="886a5" class="javax.swing.JMenuItem" binding="jmiVendas">
+                    <constraints/>
+                    <properties>
+                      <font size="20"/>
+                      <hideActionText value="false"/>
+                      <icon value="img/VendasIconTelaPrincipal.png"/>
+                      <selected value="false"/>
+                      <text value="Vendas"/>
+                    </properties>
+                  </component>
+                </children>
+              </grid>
+            </children>
+          </grid>
+        </children>
+      </grid>
+      <grid id="c7a0d" binding="jpImagem" layout-manager="GridLayoutManager" row-count="1" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="1" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <font size="20"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="47bd8" class="javax.swing.JLabel" binding="jlImagem">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <horizontalTextPosition value="11"/>
+              <icon value="img/ippoPrincipal10.jpg"/>
+              <text value=""/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>

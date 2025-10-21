@@ -1,0 +1,344 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="View.Vendas">
+  <grid id="27dc6" binding="painelPrincipal" layout-manager="GridLayoutManager" row-count="5" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="23" y="27" width="1087" height="487"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <grid id="2158f" binding="jpTopo" layout-manager="GridLayoutManager" row-count="3" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6382434"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="b288b" class="javax.swing.JButton" binding="jbVenda">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="202" height="83"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="20"/>
+              <icon value="img/CestaNovaCompraTelaVendas.png"/>
+              <text value="Nova Venda"/>
+            </properties>
+          </component>
+          <component id="15bda" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="229" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="Selecione o Vendedor"/>
+            </properties>
+          </component>
+          <component id="f1c49" class="javax.swing.JComboBox" binding="jcbVendedor">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="7" anchor="0" fill="1" indent="3" use-parent-layout="false">
+                <preferred-size width="20" height="56"/>
+              </grid>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Selecione:"/>
+              </model>
+            </properties>
+          </component>
+          <component id="336a7" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="147" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="Código Venda"/>
+            </properties>
+          </component>
+          <component id="8814c" class="javax.swing.JTextField" binding="textField2" default-binding="true">
+            <constraints>
+              <grid row="2" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="26"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="611f9" class="javax.swing.JButton" binding="jbFinaliza">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="225" height="83"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="20"/>
+              <icon value="img/CarrinhoFinalizarCompraTelaVendas.png"/>
+              <text value="Finalizar Venda"/>
+            </properties>
+          </component>
+          <component id="49c28" class="javax.swing.JButton" binding="jbSair">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="122" height="83"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="20"/>
+              <icon value="img/sairTelaPrincipal64x64.png"/>
+              <text value="Sair"/>
+            </properties>
+          </component>
+          <component id="aab09" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="121" height="20"/>
+              </grid>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="Data Venda"/>
+            </properties>
+          </component>
+          <component id="e11bf" class="javax.swing.JTextField" binding="textField1" default-binding="true">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="26"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+        </children>
+      </grid>
+      <grid id="d7dea" binding="jpLateral" layout-manager="GridLayoutManager" row-count="2" column-count="2" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="10" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="0" column="1" row-span="5" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-2342"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="70cb5" class="javax.swing.JLabel" binding="jlabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="9" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="20"/>
+              <text value="Itens"/>
+            </properties>
+          </component>
+          <component id="66d24" class="javax.swing.JLabel" binding="jlTotal">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="36"/>
+              <foreground color="-1766636"/>
+              <text value="Total"/>
+            </properties>
+          </component>
+          <hspacer id="f3606">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="1" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+          </hspacer>
+        </children>
+      </grid>
+      <grid id="b6995" binding="jpbaixo" layout-manager="GridLayoutManager" row-count="4" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="2" column="0" row-span="2" col-span="1" vsize-policy="3" hsize-policy="3" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-6382434"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="43ee1" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="Codigo Produto"/>
+            </properties>
+          </component>
+          <component id="efcc9" class="javax.swing.JTextField" binding="jtfCodigoProduto">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="bf9e9" class="javax.swing.JTextField" binding="jtfDesconto">
+            <constraints>
+              <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="3a5ee" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="Descrição Produto"/>
+            </properties>
+          </component>
+          <component id="89cd1" class="javax.swing.JComboBox" binding="jcbProduto">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="2" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="300" height="50"/>
+              </grid>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Selecione:"/>
+              </model>
+            </properties>
+          </component>
+          <component id="d8ce6" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="Desconto"/>
+            </properties>
+          </component>
+          <component id="140c5" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="2" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="Acréscimo"/>
+            </properties>
+          </component>
+          <component id="9319a" class="javax.swing.JTextField" binding="jtfAcrecimo">
+            <constraints>
+              <grid row="3" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="1" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="faf50" class="javax.swing.JTextField" binding="jtfValorUnitario">
+            <constraints>
+              <grid row="1" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="8" fill="0" indent="0" use-parent-layout="false">
+                <preferred-size width="150" height="-1"/>
+              </grid>
+            </constraints>
+            <properties/>
+          </component>
+          <component id="86238" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="Valor Unitário"/>
+            </properties>
+          </component>
+          <component id="14bbd" class="javax.swing.JButton" binding="jbInserir">
+            <constraints>
+              <grid row="3" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="20"/>
+              <text value="Inserir +"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+      <grid id="d4b1b" binding="jpcentro" layout-manager="GridLayoutManager" row-count="3" column-count="5" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+        <margin top="0" left="0" bottom="0" right="0"/>
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="7" hsize-policy="7" anchor="0" fill="3" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <background color="-24939"/>
+        </properties>
+        <border type="none"/>
+        <children>
+          <component id="6a72c" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="4" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="Selecione o Cliente"/>
+            </properties>
+          </component>
+          <component id="49e8d" class="javax.swing.JComboBox" binding="jcbCliente">
+            <constraints>
+              <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="4" hsize-policy="2" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <model>
+                <item value="Selecione:"/>
+              </model>
+            </properties>
+          </component>
+          <component id="463b2" class="javax.swing.JRadioButton" binding="cartãoCreditoRadioButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="Cartão Credito"/>
+            </properties>
+          </component>
+          <component id="c16e5" class="javax.swing.JRadioButton" binding="cartãoDébitoRadioButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="3" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="Cartão Débito"/>
+            </properties>
+          </component>
+          <component id="e0eb1" class="javax.swing.JRadioButton" binding="boletoRadioButton" default-binding="true">
+            <constraints>
+              <grid row="0" column="4" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="Boleto"/>
+            </properties>
+          </component>
+          <component id="5719" class="javax.swing.JLabel">
+            <constraints>
+              <grid row="0" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="22"/>
+              <text value="Forma de Pagamento"/>
+            </properties>
+          </component>
+          <component id="5138b" class="javax.swing.JRadioButton" binding="pixRadioButton" default-binding="true">
+            <constraints>
+              <grid row="1" column="1" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+            </constraints>
+            <properties>
+              <font size="18"/>
+              <text value="Pix"/>
+            </properties>
+          </component>
+        </children>
+      </grid>
+    </children>
+  </grid>
+</form>
