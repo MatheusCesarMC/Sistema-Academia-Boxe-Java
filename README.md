@@ -33,12 +33,12 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
 
 3.  **Configurar a Conexão**
     * Abra o projeto na sua IDE (IntelliJ, Eclipse, etc.).
-    * Vá até a classe `FabricaConexao.java` (provavelmente dentro do pacote `DAO`).
+    * Vá até a classe `FabricaConexao.java` (dentro do pacote `DAO`).
     * Altere a `URL`, `USUARIO` e `SENHA` do banco de dados para as suas credenciais locais do MySQL.
 
 4. **Adicionar o Driver JDBC**
    * O arquivo mysql-connector-j-8.4.0.jar já está incluído neste repositório.
-   * Você só precisa adicionar este arquivo ao *build path* (caminho de compilação) do seu projeto na sua IDE (Ex: No IntelliJ, vá em File > Project Structure... > Modules > Dependencies > + > JARs or directories...).
+   * Você só precisa adicionar este arquivo ao *build path* (caminho de compilação) do seu projeto na sua IDE.
 
 6.  **Executar**
     * Os dados de login para teste estão no arquivo `Login` (incluso neste repositório).
