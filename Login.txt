@@ -1,0 +1,7 @@
+matheus
+123
+admin/usuario
+
+
+Login root
+senha root / no meu usava outro que deixei escrito no codigo.
