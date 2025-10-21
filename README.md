@@ -37,7 +37,7 @@ Para rodar este projeto na sua máquina, siga os passos abaixo:
     * Altere a `URL`, `USUARIO` e `SENHA` do banco de dados para as suas credenciais locais do MySQL.
 
 4. **Adicionar o Driver JDBC**
-   * O arquivo mysql-connector-j-8.4.0.jar já está incluído neste repositório.
+   * O arquivo `mysql-connector-j-8.4.0.jar` já está incluído neste repositório.
    * Você só precisa adicionar este arquivo ao *build path* (caminho de compilação) do seu projeto na sua IDE.
 
 6.  **Executar**
